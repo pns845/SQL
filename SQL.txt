@@ -1,0 +1,2 @@
+https://www.w3schools.com/php/php_mysql_select_limit.asp--FOR LIMIT AND OFFSET
+LIMIT says how many records should be displayed and OFFSET says from which record number it should start
