@@ -1,2 +1,4 @@
 https://www.w3schools.com/php/php_mysql_select_limit.asp--FOR LIMIT AND OFFSET
 LIMIT says how many records should be displayed and OFFSET says from which record number it should start
+LIKE % used to check before or after or anywhere, _ is to check start or end with particular alphabet,IN is used to ccheck ina particular list
+w
