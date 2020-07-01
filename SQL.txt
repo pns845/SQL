@@ -5,3 +5,8 @@ SELECT TYPEOF('panda' + 'koala');---int
 SELECT TYPEOF('panda' || 'koala');--text
 SELECT ('panda' + 'koala');---0
 SELECT ('panda' || 'koala');---pandakoala
+SELECT * FROM track ORDER BY track_number DESC;
+SELECT DISTINCT(track_number) AS tn FROM track ORDER BY track_number DESC LIMIT 1 OFFSET 1 ;
+
+SELECT MAX(track_number) FROM track;
+SELECT MAX(track_number) FROM track WHERE track_number NOT IN (SELECT MAX(track_number) FROM track);
