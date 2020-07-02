@@ -10,3 +10,5 @@ SELECT DISTINCT(track_number) AS tn FROM track ORDER BY track_number DESC LIMIT 
 
 SELECT MAX(track_number) FROM track;
 SELECT MAX(track_number) FROM track WHERE track_number NOT IN (SELECT MAX(track_number) FROM track);
+Having class is like WHERE Class but for aggregate data
+WHERE Class has to be befor GROUP BY as it operates on non aggregated data and having class must be after GROUP BY 
